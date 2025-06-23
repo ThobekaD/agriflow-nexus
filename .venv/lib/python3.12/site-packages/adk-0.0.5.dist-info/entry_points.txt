@@ -1,0 +1,6 @@
+[console_scripts]
+adk = adk.rpc.rpc_service:main
+
+[gui_scripts]
+adk.d = adk.rpc.rpc_service:main
+

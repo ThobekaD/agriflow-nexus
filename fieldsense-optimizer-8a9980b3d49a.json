@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fieldsense-optimizer",
+  "private_key_id": "8a9980b3d49aaaf8f7da973800cf7c56be4d8a92",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpjl32xXmknc1T\na5fSz/0+jhHztO+caHebRsqH9j8Xc3EicxKImBLu6xmlfFXI/2w+nMslRJh3QlTy\nM1eFGKvnXR60wcODrS6QRdsrpxmlgci9WuBjgAkLIO78nI4W35eTIyUwVDVbkrLt\nlcKjsG2MyjHBoBgvgwf6VxKSJ8quwGQ71X6OFAGC/Max+loha+eYcUF3nfG3vVwM\nLUX8TlVZ8no/stgYg/LASfSHj0QSwAN+UY6fTnl3V7I/ttZyaevMlltbabJaDKhi\nfDWEm63LnVCYqWneVdEHNtKf+uxU1jkDK/aB0SM3vtMinLcWq7fcbACfi4fj1zqT\n7OHccqHJAgMBAAECggEAF2/xdyH23ZVeg3B07RQI+nOi8aAKGwGpvtH7Pu3/7Jrt\ngYiMgEsdGt9ujRxxszXzXXhI8F7aAGov2cbVCzXM1U9e5jd+ch4nOJQfZppThjg5\naks8hyR0m5Ay2MI/NdQ0XIdYJaUONxlBGGxCGmRR0EtGs3AQx8iB+s28aG2Nq7f8\nyEbkyMqHX5sST3CS8dl7BtXB+l5tUjNESXsSQzt6KGF2JS4hlmMDG9naNH6CyPYD\nCmHbLkjWY5vx3YXFV42WW5GA97oaOh4AVbuWpTQTe6ErB1fLeY+c8kiN/ILFQ3h7\n1xgm6lJe5+X9e7TcFAf7vRpj3FcOxSK5UCJrOOETcQKBgQDTb7Ly4a/9Jfda/Ebl\np/obmXA2Irt5Aqr0ZPoN+teqScmMT+gx5UuyitcdvXPwgtJBYTN78VkvLl/0YHP9\nI3bomBqEdqlKFUIfSp92z2/W1pkUvaEEo4KH2uDfBUUkIRjQwafIcehN+PPE345S\nfalmDHqxlWcAFUOAySLDgKf4pQKBgQDNSvip622XnkJSWMm9mOKN9VE4iu7bmMSQ\nuIqExwCs0bfDyLrGLMJ7E5hdmrIjSD2s2gh3j5Q6pSPIy5MjFYAVvReztFA4OM2E\nqf4i+ijo2n2zk0mmqwMHjur7oMrtIUsz/QQqYAQnN7P8RPfZJETDcKYj7HkM9XKf\nHpXp7elXVQKBgEc0q+heFz3C5n3OzjWTj4hx8TdaFRbYzigGRawlmTHxLZ5CXulG\n1mpnlbCfWAdcl2CLUqJgEm/wR0JupUFQC0Cj0PJhX/viEuWk5PVHQNvyY5V3k12T\nj2cfUHHrPXDAcLIFNfMsYVa5C6d2vmCLj1wdwchCj3CYuKYLltiOYIM9AoGAf7oA\ngn/W3Ll7XA6f3hWsB1S1Ju/R8tDWo5AdpsTF18BXjDlsc3ZPvhGP/9UKtkbxEIVL\nNVAgkmhCnmCCeBadbWkLwSQTsRcuTzcQxiRMpaui/8JI1aiapu41pz8AYo8PYhYu\nrEq26suOcQtcBT66hbqls74iBn0DxppZ/YSnZE0CgYAQ9iArB+9qwwWwOL3ausTL\nK+/v8TvCLiRC3hZDchMGOsGqfJ2V5zYnrKVzQVcROuzHjOb7AOC+ZiMua5lWAtXX\nGFMKL1V2iMAaqbjNUOniX195lILSsKhctlPIWBGr0FEQcQGnJsu9XvQbOIqA9pxa\nSK3a+Z+5UB7ObAYN/+pgIA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "adk-hackathon-service@fieldsense-optimizer.iam.gserviceaccount.com",
+  "client_id": "100630714214183512919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adk-hackathon-service%40fieldsense-optimizer.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

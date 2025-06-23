@@ -1,5 +1,3 @@
-# agriflow-nexus
-
 # Ag Supply Chain Optimizer
 
 AgriFlow Nexus is a multi-agent AI system built with the Agent Development Kit (ADK) and Google Cloud, designed to optimize the agricultural supply chain for crops and beef in Southern Africa. By integrating real-time data on weather, market prices, and regional conflict, AgriFlow Nexus provides actionable intelligence to farmers and logistics companies, aiming to reduce post-harvest losses, enhance profitability, and ensure supply chain resilience.
@@ -35,7 +33,6 @@ Unlock New Markets: The foundation for EU-grade traceability is laid, opening up
 
 ## Architecture
 
-# architecture.md
 [Start] --> [FieldSentinel] -- Yield/Pasture Scores --> [PricePredictor]
                                                              |
                                                              v
