@@ -1,12 +1,19 @@
 # Dockerfile – AgriFlow Nexus Cloud Run image
-FROM python:3.12-slim
+FROM python:3.11-slim
+
 WORKDIR /app
 COPY . .
-RUN apt-get update \
-  && apt-get install -y --no-install-recommends build-essential python3-dev \
-  && pip install --no-cache-dir -r requirements.txt \
-  && apt-get purge -y build-essential && apt-get autoremove -y \
-  && rm -rf /var/lib/apt/lists/*
-ENV PYTHONUNBUFFERED=1
-ENTRYPOINT ["python","main.py"]
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENV STREAMLIT_SERVER_HEADLESS=true \
+    PYTHONUNBUFFERED=1 \
+    PORT=8080
+
+EXPOSE 8080
+CMD streamlit run streamlit_app.py \
+      --server.port $PORT \
+      --server.headless true \
+      --server.enableCORS false \
+      --server.enableXsrfProtection false
 

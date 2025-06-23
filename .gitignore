@@ -2,3 +2,6 @@
 *.dylib
 *.so
 *.parquet
+# service accounts
+fieldsense-optimizer-*.json
+*.key.json

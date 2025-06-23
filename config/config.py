@@ -2,6 +2,7 @@
 import os
 from dataclasses import dataclass
 import os, datetime as _dt
+from decouple import config
 
 @dataclass
 class Config:
@@ -26,7 +27,7 @@ def create_env_template():
     env_content = """
 # Google Cloud Configuration
 GOOGLE_CLOUD_PROJECT=fieldsense-optimizer
-GOOGLE_APPLICATION_CREDENTIALS=fieldsense-optimizer-8a9980b3d49a.json
+GOOGLE_APPLICATION_CREDENTIALS= config('GOOGLE_APPLICATION_CREDENTIALS')
 
 # API Keys
 WEATHER_API_KEY=your-weather-api-key-here

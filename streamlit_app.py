@@ -19,8 +19,17 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
 
+
 import streamlit as st
 import pandas as pd
+
+import os, json, tempfile
+if "GOOGLE_APPLICATION_CREDENTIALS_JSON" in os.environ:
+    fd, path = tempfile.mkstemp(suffix=".json")
+    with os.fdopen(fd, "w") as tmp:
+        tmp.write(os.environ["GOOGLE_APPLICATION_CREDENTIALS_JSON"])
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = path
+
 from google.cloud import bigquery
 
 # ── local libs ────────────────────────────────────────────────────────
